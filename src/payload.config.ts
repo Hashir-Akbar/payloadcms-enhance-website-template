@@ -31,7 +31,8 @@ export default buildConfig({
       beforeDashboard: ['@/components/BeforeDashboard'],
     },
     importMap: {
-      baseDir: path.resolve(dirname),
+      baseDir: path.resolve(dirname, 'src'),
+      importMapFile: path.resolve(dirname, 'app', '(backend)', 'admin', 'importMap.js'),
     },
     user: Users.slug,
     livePreview: {
