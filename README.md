@@ -7,3 +7,8 @@ This will be mono repo, plan is to make multi tenant, sass, ecommerce, multi ven
 Core features:
 
 - yet to be decided
+
+Website Template features:
+
+- updated all packages
+- tailwind v4 and shadcn cli integrated
