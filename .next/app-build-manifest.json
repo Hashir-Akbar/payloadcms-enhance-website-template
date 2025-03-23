@@ -1,0 +1,82 @@
+{
+  "pages": {
+    "/(backend)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(backend)/layout.css",
+      "static/chunks/app/(backend)/layout.js"
+    ],
+    "/(backend)/admin/[[...segments]]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(backend)/admin/[[...segments]]/not-found.css",
+      "static/chunks/app/(backend)/admin/[[...segments]]/not-found.js"
+    ],
+    "/(backend)/admin/[[...segments]]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(backend)/admin/[[...segments]]/page.css",
+      "static/chunks/app/(backend)/admin/[[...segments]]/page.js"
+    ],
+    "/(backend)/api/[...slug]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(backend)/api/[...slug]/route.css",
+      "static/chunks/app/(backend)/api/[...slug]/route.js"
+    ],
+    "/(frontend)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(frontend)/layout.css",
+      "static/chunks/app/(frontend)/layout.js"
+    ],
+    "/(frontend)/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(frontend)/not-found.js"
+    ],
+    "/(frontend)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(frontend)/page.css",
+      "static/chunks/app/(frontend)/page.js"
+    ],
+    "/(frontend)/next/seed/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(frontend)/next/seed/route.js"
+    ],
+    "/(frontend)/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(frontend)/[slug]/page.css",
+      "static/chunks/app/(frontend)/[slug]/page.js"
+    ],
+    "/(frontend)/posts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(frontend)/posts/page.js"
+    ],
+    "/(frontend)/next/preview/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(frontend)/next/preview/route.js"
+    ],
+    "/(frontend)/search/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(frontend)/search/page.js"
+    ],
+    "/(frontend)/next/exit-preview/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(frontend)/next/exit-preview/route.js"
+    ],
+    "/(frontend)/posts/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(frontend)/posts/[slug]/page.css",
+      "static/chunks/app/(frontend)/posts/[slug]/page.js"
+    ]
+  }
+}

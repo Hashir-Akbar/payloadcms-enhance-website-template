@@ -1,0 +1,10 @@
+{
+  "/(backend)/api/[...slug]/route": "app/(backend)/api/[...slug]/route.js",
+  "/(frontend)/next/exit-preview/route": "app/(frontend)/next/exit-preview/route.js",
+  "/(frontend)/[slug]/page": "app/(frontend)/[slug]/page.js",
+  "/(frontend)/page": "app/(frontend)/page.js",
+  "/(backend)/admin/[[...segments]]/page": "app/(backend)/admin/[[...segments]]/page.js",
+  "/(frontend)/search/page": "app/(frontend)/search/page.js",
+  "/(frontend)/posts/[slug]/page": "app/(frontend)/posts/[slug]/page.js",
+  "/(frontend)/posts/page": "app/(frontend)/posts/page.js"
+}
